@@ -65,3 +65,7 @@
 .list__link:hover{
     color: rgb(145, 145, 145);
 }
+
+.contenido{
+    line-height: 1.4;
+}
