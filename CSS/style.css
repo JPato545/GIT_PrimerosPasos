@@ -29,6 +29,18 @@
     color: blueviolet;
 }
 
+.contenedor__titulos{
+    background-color:  #141448 ;
+    color: white;
+    padding: 1em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5em;
+    margin-top: -45px;
+    z-index: 100;
+}
+
 .contenedor__contenido{
     width: 80%;
     margin-left: auto;
@@ -69,4 +81,21 @@
 .contenido{
     line-height: 1.5;
     padding: 0.5em 1.5em;
+}
+
+.img{
+    margin-left: -66px;
+    width: 150%;
+}
+
+.contenedor__img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    z-index: -100;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 82%);
 }
