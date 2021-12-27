@@ -27,6 +27,7 @@
 
 .contenido__title{
     color: blueviolet;
+    padding: 1em;
 }
 
 .contenedor__titulos{
@@ -47,6 +48,8 @@
     margin-right: auto;
     font-family: Arial;
     text-align: justify;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 .footer{
     background-color: rgb(90, 41, 136);
